@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E1C699;
+    /* Solid color background */
+  }
+  
+  /* Copy the rest of the navbar CSS from style.css */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background: #9A652E;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    /* Adjust padding as needed */
+    display: inline-block;
+    /* Allows the application of padding and border */
+    margin: 0 5px;
+    /* Space between navbar links */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
+  }
+  
+  .navbar a:hover {
+    border: 2px solid #FFFFFF;
+    /* Adds a white border on hover */
+    padding: 8px 13px;
+    /* Adjust padding to compensate for the border thickness */
+  }
+  .box {
+    width: 12%;
+    height: 20vh;
+    margin: 50px 0 50px 100px; /* Top | Right | Bottom | Left */
+    background-color: #9A652E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* ... any additional styles ... */
+  }
+  .box2 {
+    width: 12%;
+    height: 20vh;
+    margin: 50px 0 50px 50px; /* Top | Right | Bottom | Left */
+    background-color: #9A652E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* ... any additional styles ... */
+  }
+  .about-me-header {
+    display: block;
+    /* Ensures the img is a block-level element */
+    margin: 0 auto;
+    /* Centers the image horizontally */
+    max-width: 11%;
+    /* Ensures the image is responsive and does not overflow its container */
+    position: absolute;
+    /* Position the image absolutely within its parent */
+    top: 140px;
+    /* Distance from the top edge of the parent container */
+    left: 5%0;
+  
+    height: auto;
+    /* Keeps the image's aspect ratio intact */
+  }
+  
+  .mini-boxes-container {
+    margin: 100px 0px 500px 160px; /* Top | Right | Bottom | Left */
+    display: flex;
+    justify-content: space-around; /* This spreads the boxes evenly */
+    flex-wrap: wrap; /* Allows boxes to wrap to the next line on small screens */
+  }
+  
+  .mini-box {
+    width: 2%; /* Adjust based on how many boxes per row you want and container size */
+    padding: 60px;
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.2); /* Adds a subtle shadow */
+    background-color: #9A652E;
+    margin: -80px;
+    text-align: center; /* Centers the text inside the box */
+  }
+  
+  .mini-box img {
+    width: 80%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 100px; /* Adjust based on your design */
+    margin: 270px auto; /* Centers the image */
+  }
+ 
