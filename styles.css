@@ -53,7 +53,7 @@ body {
   .box2 {
     width: 12%;
     height: 20vh;
-    margin: 50px 0 50px 50px; /* Top | Right | Bottom | Left */
+    margin: px 0 50px 50px; /* Top | Right | Bottom | Left */
     background-color: #9A652E;
     display: flex;
     justify-content: center;
@@ -78,7 +78,7 @@ body {
   }
   
   .mini-boxes-container {
-    margin: 100px 0px 500px 160px; /* Top | Right | Bottom | Left */
+    margin: -170px 0px 500px 160px; /* Top | Right | Bottom | Left */
     display: flex;
     justify-content: space-around; /* This spreads the boxes evenly */
     flex-wrap: wrap; /* Allows boxes to wrap to the next line on small screens */
@@ -86,10 +86,10 @@ body {
   
   .mini-box {
     width: 2%; /* Adjust based on how many boxes per row you want and container size */
-    padding: 60px;
+    padding: 40px;
     box-shadow: 0 2px 5px rgba(255, 0, 0, 0.2); /* Adds a subtle shadow */
     background-color: #9A652E;
-    margin: -80px;
+    margin: -60px;
     text-align: center; /* Centers the text inside the box */
   }
   
@@ -97,6 +97,6 @@ body {
     width: 80%; /* Makes the image responsive */
     height: auto; /* Maintains aspect ratio */
     max-width: 100px; /* Adjust based on your design */
-    margin: 270px auto; /* Centers the image */
+    margin: 100px 0px 0px -20px; /* Top | Right | Bottom | Left */
   }
  
