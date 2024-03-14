@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
+<script src="main.js"></script>
+
 <body>
 
   <!-- navbar -->
@@ -27,25 +29,25 @@
     </nav>
   </header>
 
-  <div class="box">
-    <img src="img/MOTOYB.png" alt="About Me" class="about-me-header">
-    </div>
-  </div>
 
-  <div class="mini-boxes-container">
-    <div class="mini-box">
-        <img src="img/MOTOYB.png" alt="About Me" class="about-me-header">
-      
-    </div>
-    <div class="mini-box">
-        <img src="img/Gobline.png" alt="About Me" class="about-me-header">
-      
-    </div>
-    <div class="mini-box">
-        <img src="img/RAPTEE.png" alt="About Me" class="about-me-header">
-    
-    </div>
-     </div>
+
+  <!-- Big box with an identifiable id -->
+<div class="box">
+  <img src="img/MOTOYB.png" alt="About Me" class="about-me-header" id="bigImage">
+</div>
+
+<!-- Mini boxes with data attributes indicating what image they represent -->
+<div class="mini-boxes-container">
+  <div class="mini-box">
+      <img src="img/MOTOYB.png" alt="About Me" data-big-image="img/MOTOYB.png" class="mini-image">
+  </div>
+  <div class="mini-box">
+      <img src="img/Gobline.png" alt="About Me" data-big-image="img/Gobline.png" class="mini-image">
+  </div>
+  <div class="mini-box">
+      <img src="img/RAPTEE.png" alt="About Me" data-big-image="img/RAPTEE.png" class="mini-image">
+  </div>
+</div>
      
 
 </body>
