@@ -13,3 +13,23 @@ function setupImageSwitcher() {
 
 // Run the function when the document is fully loaded
 document.addEventListener('DOMContentLoaded', setupImageSwitcher);
+
+const app = Vue.createApp({
+    data () {
+        return {
+            cart: [],
+           premium: true
+        } 
+        },
+        methods: {
+            updateCart(id) {
+                this.cart.push(id)
+            },
+            removeById(id) {
+                const index = this.cart.indexOf(id)
+                if (index > -1) {
+                    this.cart.splice(index, 1)
+                }
+            }
+            }
+        })
